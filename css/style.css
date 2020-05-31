@@ -1,0 +1,181 @@
+/*Utility*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  /* overflow: auto; */
+  padding: 0 20px;
+}
+
+.btn {
+  background-color: #131212;
+  padding: 13px 20px;
+  color: whitesmoke;
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+.bg-primary {
+  background: #c13100;
+  color: FF9900(160, 156, 156);
+}
+
+.bg-light {
+  background: rgb(228, 220, 220);
+  color: #333;
+}
+
+.bg-dark {
+  background-color: #130f01;
+  color: wheat;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  color: #bca829;
+}
+
+.clr {
+  clear: both;
+}
+
+span {
+  color: #bca829;
+}
+
+.py-1 {
+  padding: 10px;
+}
+
+.py-2 {
+  padding: 20px;
+}
+
+.py-3 {
+  padding: 30px;
+}
+
+/***********NAVBAR**********************/
+#navbar {
+  background: #130f01;
+  color: white;
+  overflow: auto;
+}
+
+#navbar h1 {
+  float: left;
+  padding: 20px;
+}
+#navbar h1:hover {
+  color: #bca829;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 23.5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+
+#navbar ul li a:hover {
+  color: #bca829;
+  background-color: white;
+}
+/****************Hotel Info********************/
+.showcase {
+  background: url("../img/architecture-carpet-chandeliers-design-573552.jpg")
+    no-repeat center center/cover;
+  /* filter: blur(8px); */
+  height: 450px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.showcase-content {
+  padding-top: 107px;
+  font-size: 55px;
+  padding-bottom: 20px;
+}
+
+.showcase-para {
+  line-height: 1.5rem;
+  color: whitesmoke;
+  padding-bottom: 20px;
+}
+
+.section {
+  height: 60vh;
+}
+.section-content {
+  float: right;
+  width: 50%;
+  background-color: #130f01;
+  color: wheat;
+  height: 100%;
+  text-align: center;
+  padding-top: 60px;
+  overflow: auto;
+}
+.section-content p {
+  line-height: 1.5rem;
+  color: whitesmoke;
+  padding-bottom: 20px;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+section .section-img {
+  background: url("../img/architecture-hall-hallway-interior-design-53464.jpg")
+    no-repeat center center/cover;
+  overflow: auto;
+  width: 50%;
+  float: left;
+  min-height: 100%;
+}
+
+/**************Amenities********************/
+#amenities .box {
+  padding: 50px;
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  display: block;
+}
+
+#amenities .box i {
+  margin-bottom: 10px;
+}
+
+#amenities .box h3 {
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  display: block;
+}
