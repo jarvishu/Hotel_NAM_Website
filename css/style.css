@@ -13,7 +13,7 @@ body {
 .container {
   margin: auto;
   max-width: 1100px;
-  /* overflow: auto; */
+  overflow: auto;
   padding: 0 20px;
 }
 
@@ -27,6 +27,10 @@ body {
   cursor: pointer;
   border: none;
   text-decoration: none;
+}
+
+.h1_primary {
+  color: #0dc2a1;
 }
 
 .bg-primary {
@@ -44,6 +48,11 @@ body {
   color: wheat;
 }
 
+.bg-secondary {
+  background: #bca829;
+  color: #333;
+}
+
 .btn:hover {
   background-color: whitesmoke;
   color: #bca829;
@@ -58,15 +67,15 @@ span {
 }
 
 .py-1 {
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 .py-2 {
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 .py-3 {
-  padding: 30px;
+  padding: 30px 0px;
 }
 
 /***********NAVBAR**********************/
@@ -109,7 +118,6 @@ span {
 .showcase {
   background: url("../img/architecture-carpet-chandeliers-design-573552.jpg")
     no-repeat center center/cover;
-  /* filter: blur(8px); */
   height: 450px;
   text-align: center;
   color: whitesmoke;
@@ -174,8 +182,73 @@ section .section-img {
   margin-bottom: 20px;
 }
 
+/*******About Page********************/
+
+#about-info {
+  height: 70vh;
+}
+#about-info .info-left {
+  float: left;
+  height: 100%;
+  width: 40%;
+  display: block;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+}
+
+#about-info .info-left p {
+  line-height: 1.5rem;
+}
+
+#about-info .info-right {
+  background: url("../img/black-outdoor-lounge-chair-in-between-blue-swimming-pool-189296.jpg")
+    no-repeat center center/cover;
+  width: 40%;
+  float: right;
+  height: 100%;
+  overflow: auto;
+  padding: 100px;
+}
+
+#testimonials {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  overflow: auto;
+  background: url("../img/hotel-lamps-bed-bedroom-26139.jpg") no-repeat center
+    center/cover;
+}
+
+#testimonials h1 {
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  overflow: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+}
+
+#testimonials .testimonial {
+  opacity: 0.9;
+}
+
+.hotel_about {
+  color: #757676;
+}
+/**************Footer**************/
 footer {
   padding: 15px;
   text-align: center;
   display: block;
+}
+#testimonials h1 {
+  font-size: 40px;
+  color: whitesmoke;
 }
