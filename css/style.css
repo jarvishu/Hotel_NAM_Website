@@ -281,6 +281,15 @@ button {
   margin-bottom: 20px;
 }
 
+.form_name input {
+  border: 1px #ddd solid;
+  padding-left: 6px;
+}
+.form_name input:focus {
+  outline: none;
+  border-color: #bca829;
+}
+
 /**************Footer**************/
 footer {
   padding: 15px;
