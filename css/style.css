@@ -94,10 +94,14 @@ span {
   float: left;
   padding: 20px;
 }
-#navbar h1:hover {
+#navbar a:hover {
   color: #bca829;
 }
 
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
 #navbar ul {
   list-style: none;
   float: right;
