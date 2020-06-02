@@ -25,3 +25,7 @@ section .section-img {
 #testimonial {
   height: 100%;
 }
+
+#box {
+  border-bottom: #bca829 1px dotted;
+}
