@@ -1,0 +1,27 @@
+.section-content {
+  float: none;
+  width: 100%;
+}
+
+section .section-img {
+  display: none;
+}
+
+#amenities .box {
+  float: none;
+  width: 100%;
+  padding: 50px 0;
+}
+
+#about-info .info-right {
+  display: none;
+  width: 100%;
+}
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+#testimonial {
+  height: 100%;
+}

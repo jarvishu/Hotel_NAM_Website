@@ -145,7 +145,7 @@ span {
 }
 
 .section {
-  height: 60vh;
+  height: 70vh;
 }
 .section-content {
   float: right;
@@ -181,6 +181,7 @@ section .section-img {
   width: 33.3%;
   text-align: center;
   display: block;
+  height: 100%;
 }
 
 #amenities .box i {
@@ -222,6 +223,7 @@ section .section-img {
 }
 
 #testimonials {
+  height: 100%;
   width: 100%;
   text-align: center;
   padding-top: 40px;
@@ -243,6 +245,11 @@ section .section-img {
   width: 100px;
   float: left;
   border-radius: 50%;
+}
+
+#testimonials h1 {
+  font-size: 40px;
+  color: whitesmoke;
 }
 
 #testimonials .testimonial {
@@ -295,8 +302,4 @@ footer {
   padding: 15px;
   text-align: center;
   display: block;
-}
-#testimonials h1 {
-  font-size: 40px;
-  color: whitesmoke;
 }
